@@ -1,0 +1,1 @@
+import{u as s,r as o,s as r}from"./index-K5WvS6eB.js";function n({children:t}){const e=s();return o.useEffect(()=>{r.auth.getSession().then(({data:{session:a}})=>{a||e("/login")})},[]),t}export{n as default};

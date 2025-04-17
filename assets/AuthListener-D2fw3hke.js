@@ -1,0 +1,1 @@
+import{u as s,r as e,s as u}from"./index-K5WvS6eB.js";function n(){const a=s();return e.useEffect(()=>{u.auth.onAuthStateChange(t=>{t==="SIGNED_IN"&&a("/dashboard"),t==="SIGNED_OUT"&&a("/login")})},[]),null}export{n as default};
